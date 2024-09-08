@@ -3,7 +3,7 @@ use feature "class";
 use warnings -experimental;
 
 
-class Webservice::InternetDB::API 1.000;
+class Webservice::InternetDB::API 1.001;
 
 use HTTP::Tiny;
 use JSON::PP;
@@ -69,7 +69,11 @@ This module provides an object oriented interface via the keyword "class" featur
 
 =head1 METHODS
 
+=over
+
 =item C<get()>
+
+=back
 
 Accepts a string that is the IP address to be scanned.
 Returns a hash reference with the results of the scan.
